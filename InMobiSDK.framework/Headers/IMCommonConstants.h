@@ -9,12 +9,6 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSInteger, IMSDKIdType) {
-    kIMSDKIdTypeSession,
-    kIMSDKIdTypeLogin
-};
-
-
 typedef NS_ENUM(NSInteger, IMSDKLogLevel) {
     kIMSDKLogLevelNone,
     kIMSDKLogLevelError,

@@ -62,10 +62,6 @@
  */
 -(void)nativeAdImpressed:(IMNative*)native;
 /**
- * Notifies the delegate that the user has performed the action to be incentivised with.
- */
--(void)native:(IMNative*)native rewardActionCompletedWithRewards:(NSDictionary*)rewards;
-/**
  * Notifies the delegate that the native ad has been interacted with.
  */
 -(void)native:(IMNative*)native didInteractWithParams:(NSDictionary*)params;
