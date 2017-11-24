@@ -27,6 +27,7 @@
 		35B4E79E1D88316E00F27AEF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3557B30D1BCDADC3005A71B5 /* AdSupport.framework */; };
 		35BD7EA61D880C00002BCA2E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BD7EA51D880C00002BCA2E /* WebKit.framework */; };
 		35F42B811E9436EE00865D29 /* InFeedTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 357DE41A1E94108F00C11035 /* InFeedTableCell.xib */; };
+		D167AD181FC8039B00724B34 /* SDK Reboot iOS集成指南 20170706.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D167AD171FC8039B00724B34 /* SDK Reboot iOS集成指南 20170706.pdf */; };
 		D177887A1F56609B00A3761A /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D17788791F56609B00A3761A /* BannerViewController.m */; };
 		D177887D1F566F6A00A3761A /* InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D177887C1F566F6A00A3761A /* InterstitialViewController.m */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,7 @@
 		35AD4D031EA6966700F2AEB7 /* PrerollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrerollViewController.h; sourceTree = "<group>"; };
 		35AD4D041EA6966700F2AEB7 /* PrerollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrerollViewController.m; sourceTree = "<group>"; };
 		35BD7EA51D880C00002BCA2E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D167AD171FC8039B00724B34 /* SDK Reboot iOS集成指南 20170706.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "SDK Reboot iOS集成指南 20170706.pdf"; path = "../../Desktop/对接文档/SDK Reboot iOS集成指南 20170706.pdf"; sourceTree = "<group>"; };
 		D17788781F56609B00A3761A /* BannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
 		D17788791F56609B00A3761A /* BannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
 		D177887B1F566F6A00A3761A /* InterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitialViewController.h; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		35366B7B1B4306CF002D32D1 = {
 			isa = PBXGroup;
 			children = (
+				D167AD171FC8039B00724B34 /* SDK Reboot iOS集成指南 20170706.pdf */,
 				359E096F1EACB00C0048C8C2 /* InMobiSDK.framework */,
 				35BD7EA51D880C00002BCA2E /* WebKit.framework */,
 				3557B30D1BCDADC3005A71B5 /* AdSupport.framework */,
@@ -234,6 +237,7 @@
 			files = (
 				35F42B811E9436EE00865D29 /* InFeedTableCell.xib in Resources */,
 				35366B931B4306CF002D32D1 /* Main.storyboard in Resources */,
+				D167AD181FC8039B00724B34 /* SDK Reboot iOS集成指南 20170706.pdf in Resources */,
 				35A44B5D1D466D57007889E3 /* Images.xcassets in Resources */,
 				35366B981B4306CF002D32D1 /* LaunchScreen.xib in Resources */,
 				35366BD91B430783002D32D1 /* Base.lproj in Resources */,
