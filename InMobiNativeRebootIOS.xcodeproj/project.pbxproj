@@ -29,7 +29,7 @@
 		35F42B811E9436EE00865D29 /* InFeedTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 357DE41A1E94108F00C11035 /* InFeedTableCell.xib */; };
 		D177887A1F56609B00A3761A /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D17788791F56609B00A3761A /* BannerViewController.m */; };
 		D177887D1F566F6A00A3761A /* InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D177887C1F566F6A00A3761A /* InterstitialViewController.m */; };
-		D19D615A1FCBC8E4008FF95D /* SDK Reboot iOS 20171127 Native Reboot.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D19D61591FCBC8E4008FF95D /* SDK Reboot iOS 20171127 Native Reboot.pdf */; };
+		D19D615C1FCBCA78008FF95D /* SDK Reboot iOS 20171127 .pdf in Resources */ = {isa = PBXBuildFile; fileRef = D19D615B1FCBCA78008FF95D /* SDK Reboot iOS 20171127 .pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,7 +67,7 @@
 		D17788791F56609B00A3761A /* BannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
 		D177887B1F566F6A00A3761A /* InterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitialViewController.h; sourceTree = "<group>"; };
 		D177887C1F566F6A00A3761A /* InterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialViewController.m; sourceTree = "<group>"; };
-		D19D61591FCBC8E4008FF95D /* SDK Reboot iOS 20171127 Native Reboot.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "SDK Reboot iOS 20171127 Native Reboot.pdf"; path = "../../Downloads/SDK Reboot iOS 20171127 Native Reboot.pdf"; sourceTree = "<group>"; };
+		D19D615B1FCBCA78008FF95D /* SDK Reboot iOS 20171127 .pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "SDK Reboot iOS 20171127 .pdf"; path = "../../Downloads/SDK Reboot iOS 20171127 .pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,7 +179,7 @@
 		D19D61581FCBC890008FF95D /* 集成文档 */ = {
 			isa = PBXGroup;
 			children = (
-				D19D61591FCBC8E4008FF95D /* SDK Reboot iOS 20171127 Native Reboot.pdf */,
+				D19D615B1FCBCA78008FF95D /* SDK Reboot iOS 20171127 .pdf */,
 			);
 			name = "集成文档";
 			sourceTree = "<group>";
@@ -244,10 +244,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				35F42B811E9436EE00865D29 /* InFeedTableCell.xib in Resources */,
+				D19D615C1FCBCA78008FF95D /* SDK Reboot iOS 20171127 .pdf in Resources */,
 				35366B931B4306CF002D32D1 /* Main.storyboard in Resources */,
 				35A44B5D1D466D57007889E3 /* Images.xcassets in Resources */,
 				35366B981B4306CF002D32D1 /* LaunchScreen.xib in Resources */,
-				D19D615A1FCBC8E4008FF95D /* SDK Reboot iOS 20171127 Native Reboot.pdf in Resources */,
 				35366BD91B430783002D32D1 /* Base.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
