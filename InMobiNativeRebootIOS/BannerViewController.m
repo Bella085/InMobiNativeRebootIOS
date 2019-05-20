@@ -7,7 +7,6 @@
 
 #ifndef INMOBI_BANNER_PLACEMENT
 #define INMOBI_BANNER_PLACEMENT     1502800773034
-//#define INMOBI_BANNER_PLACEMENT     1497174814278  //pub test
 #endif
 
 #import "BannerViewController.h"
@@ -40,8 +39,8 @@
      * Code to integrate an InMobi banner via Interface Builder
      */
     
-    self.banner.placementId = INMOBI_BANNER_PLACEMENT;
-    [self.banner load];
+//    self.banner.placementId = INMOBI_BANNER_PLACEMENT;
+//    [self.banner load];
 
 }
 

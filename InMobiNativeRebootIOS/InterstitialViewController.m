@@ -8,7 +8,7 @@
 
 
 #ifndef INMOBI_INTERSTITIAL_PLACEMENT
-#define INMOBI_INTERSTITIAL_PLACEMENT   1504861055938   //1504861055938 interstitial
+#define INMOBI_INTERSTITIAL_PLACEMENT   1504861055938 //interstitial
                                                         //1505729201415 rewardVideo
 #endif
 

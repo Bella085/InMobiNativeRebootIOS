@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		352596461D75953100AD6BBA /* InfeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352596431D75953100AD6BBA /* InfeedViewController.m */; };
 		352CFA531EA7919100187184 /* UINavigationController+Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 352CFA521EA7919100187184 /* UINavigationController+Orientation.m */; };
-		352CFA561EA7933500187184 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 352CFA551EA7933500187184 /* MediaPlayer.framework */; };
 		35366B8A1B4306CF002D32D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35366B891B4306CF002D32D1 /* main.m */; };
 		35366B8D1B4306CF002D32D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35366B8C1B4306CF002D32D1 /* AppDelegate.m */; };
 		35366B931B4306CF002D32D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35366B911B4306CF002D32D1 /* Main.storyboard */; };
@@ -21,14 +20,15 @@
 		3557B30C1BCDADB9005A71B5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3557B3081BCDAD9D005A71B5 /* libz.tbd */; };
 		357DE4161E940E1B00C11035 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 357DE4151E940E1B00C11035 /* BaseTableViewController.m */; };
 		357DE41C1E942F1C00C11035 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 357DE4181E940E6100C11035 /* SplashViewController.m */; };
-		359E09701EACB00C0048C8C2 /* InMobiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359E096F1EACB00C0048C8C2 /* InMobiSDK.framework */; };
 		35A44B5D1D466D57007889E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A44B5C1D466D57007889E3 /* Images.xcassets */; };
 		35AD4D051EA6966700F2AEB7 /* PrerollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AD4D041EA6966700F2AEB7 /* PrerollViewController.m */; };
 		35B4E79E1D88316E00F27AEF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3557B30D1BCDADC3005A71B5 /* AdSupport.framework */; };
 		35BD7EA61D880C00002BCA2E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35BD7EA51D880C00002BCA2E /* WebKit.framework */; };
 		35F42B811E9436EE00865D29 /* InFeedTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 357DE41A1E94108F00C11035 /* InFeedTableCell.xib */; };
+		D172C712228D68AB00766736 /* InMobiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D172C711228D68AB00766736 /* InMobiSDK.framework */; };
 		D177887A1F56609B00A3761A /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D17788791F56609B00A3761A /* BannerViewController.m */; };
 		D177887D1F566F6A00A3761A /* InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D177887C1F566F6A00A3761A /* InterstitialViewController.m */; };
+		D1AE6E8E224B2D4500B382E3 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AE6E8D224B2D4500B382E3 /* libxml2.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,6 @@
 		352596451D75953100AD6BBA /* InfeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfeedViewController.h; sourceTree = "<group>"; };
 		352CFA511EA7919100187184 /* UINavigationController+Orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Orientation.h"; sourceTree = "<group>"; };
 		352CFA521EA7919100187184 /* UINavigationController+Orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Orientation.m"; sourceTree = "<group>"; };
-		352CFA551EA7933500187184 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		35366B881B4306CF002D32D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35366B891B4306CF002D32D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		35366B8B1B4306CF002D32D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,15 +56,17 @@
 		357DE4181E940E6100C11035 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		357DE41A1E94108F00C11035 /* InFeedTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InFeedTableCell.xib; sourceTree = "<group>"; };
 		357F97951E940C7400819391 /* InMobiNativeRebootIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InMobiNativeRebootIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		359E096F1EACB00C0048C8C2 /* InMobiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InMobiSDK.framework; sourceTree = "<group>"; };
 		35A44B5C1D466D57007889E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		35AD4D031EA6966700F2AEB7 /* PrerollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrerollViewController.h; sourceTree = "<group>"; };
 		35AD4D041EA6966700F2AEB7 /* PrerollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrerollViewController.m; sourceTree = "<group>"; };
 		35BD7EA51D880C00002BCA2E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D172C711228D68AB00766736 /* InMobiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InMobiSDK.framework; sourceTree = "<group>"; };
 		D17788781F56609B00A3761A /* BannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
 		D17788791F56609B00A3761A /* BannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
 		D177887B1F566F6A00A3761A /* InterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitialViewController.h; sourceTree = "<group>"; };
 		D177887C1F566F6A00A3761A /* InterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialViewController.m; sourceTree = "<group>"; };
+		D19E47A22148CA3100B5AD72 /* InMobiNativeRebootIOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InMobiNativeRebootIOS.entitlements; sourceTree = "<group>"; };
+		D1AE6E8D224B2D4500B382E3 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,12 +74,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				352CFA561EA7933500187184 /* MediaPlayer.framework in Frameworks */,
+				D1AE6E8E224B2D4500B382E3 /* libxml2.tbd in Frameworks */,
 				35B4E79E1D88316E00F27AEF /* AdSupport.framework in Frameworks */,
 				35BD7EA61D880C00002BCA2E /* WebKit.framework in Frameworks */,
 				3557B30C1BCDADB9005A71B5 /* libz.tbd in Frameworks */,
 				3557B30B1BCDADAC005A71B5 /* libsqlite3.0.tbd in Frameworks */,
-				359E09701EACB00C0048C8C2 /* InMobiSDK.framework in Frameworks */,
+				D172C712228D68AB00766736 /* InMobiSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +89,7 @@
 		352CFA541EA7933500187184 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				352CFA551EA7933500187184 /* MediaPlayer.framework */,
+				D1AE6E8D224B2D4500B382E3 /* libxml2.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,7 +97,7 @@
 		35366B7B1B4306CF002D32D1 = {
 			isa = PBXGroup;
 			children = (
-				359E096F1EACB00C0048C8C2 /* InMobiSDK.framework */,
+				D172C711228D68AB00766736 /* InMobiSDK.framework */,
 				35BD7EA51D880C00002BCA2E /* WebKit.framework */,
 				3557B30D1BCDADC3005A71B5 /* AdSupport.framework */,
 				3557B30A1BCDADAC005A71B5 /* libsqlite3.0.tbd */,
@@ -110,6 +111,7 @@
 		35366B861B4306CF002D32D1 /* InMobiNativeRebootIOS */ = {
 			isa = PBXGroup;
 			children = (
+				D19E47A22148CA3100B5AD72 /* InMobiNativeRebootIOS.entitlements */,
 				35A44B5C1D466D57007889E3 /* Images.xcassets */,
 				3554C4D01D2BB53700AE6946 /* DataObjects */,
 				3554C4B51D2A89F000AE6946 /* Experience */,
@@ -206,6 +208,14 @@
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = 343FM2JC8M;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 0;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -214,6 +224,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -378,6 +389,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: psochinainmobi@163.com (2HH9HZV4AR)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 343FM2JC8M;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -385,12 +397,12 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/InMobiNativeRebootIOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.inmobi.nativereboot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubercab.UberClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -405,6 +417,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: psochinainmobi@163.com (2HH9HZV4AR)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 343FM2JC8M;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -412,12 +425,12 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/InMobiNativeRebootIOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.inmobi.nativereboot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubercab.UberClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

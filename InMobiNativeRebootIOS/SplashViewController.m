@@ -77,6 +77,7 @@ BOOL isSecondScreenDisplayed;
     
     self.InMobiNativeAd = [[IMNative alloc] initWithPlacementId:self.placementID];
     self.InMobiNativeAd.delegate = self;
+    
 //    [self.InMobiNativeAd shouldOpenLandingPage:NO];
     [self.InMobiNativeAd load];
     [self performSelector:@selector(ShowIfSplashAdIsReady) withObject:NULL afterDelay:2.0];

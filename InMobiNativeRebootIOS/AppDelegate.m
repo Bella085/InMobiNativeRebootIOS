@@ -46,6 +46,7 @@ void exceptionHandler (NSException *ex) {
 //    
 //    [IMSdk initWithAccountID:@"12345678809987654321"];
      [IMSdk initWithAccountID:@"6bc86aa10dce4c359d9f98b4cf193de9"];
+//    [IMSdk initWithAccountID:@"6bc86aa10dce4c359d9f98b4cf193de9" consentDictionary:@{IM_GDPR_CONSENT_AVAILABLE:@YES,@"gdpr":@1}]; （欧盟流量必须使用此初始化方法）
     
     
 //    12345678809987654321
