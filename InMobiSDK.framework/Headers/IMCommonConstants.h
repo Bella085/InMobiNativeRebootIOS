@@ -4,10 +4,12 @@
 //  Copyright (c) 2015 InMobi. All rights reserved.
 //
 
-#ifndef APIs_CommonConstants_h
-#define APIs_CommonConstants_h
+#ifndef COMMONCONSTANTSINCLUEDE_H
+#define COMMONCONSTANTSINCLUEDE_H
 
 #import <UIKit/UIKit.h>
+
+static const NSString * IM_GDPR_CONSENT_AVAILABLE = @"gdpr_consent_available";
 
 typedef NS_ENUM(NSInteger, IMSDKLogLevel) {
     kIMSDKLogLevelNone,
@@ -32,29 +34,6 @@ typedef NS_ENUM (NSInteger, IMSDKEducation) {
     kIMSDKEducationPostGraduateOrAbove
 };
 
-/**
- * User Ethnicity
- */
-typedef NS_ENUM (NSInteger, IMSDKEthnicity) {
-    kIMSDKEthnicityHispanic = 1,
-    kIMSDKEthnicityCaucasian,
-    kIMSDKEthnicityAsian,
-    kIMSDKEthnicityAfricanAmerican,
-    kIMSDKEthnicityOther
-};
-
-typedef NS_ENUM(NSInteger, IMSDKHouseholdIncome) {
-    kIMSDKHouseholdIncomeBelow5kUSD = 1,
-    kIMSDKHouseholdIncomeBetween5kAnd10kUSD,
-    kIMSDKHouseholdIncomeBetween10kAnd15kUSD,
-    kIMSDKHouseholdIncomeBetween15kAnd20kUSD,
-    kIMSDKHouseholdIncomeBetween20kAnd25kUSD,
-    kIMSDKHouseholdIncomeBetween25kAnd50kUSD,
-    kIMSDKHouseholdIncomeBetween50kAnd75kUSD,
-    kIMSDKHouseholdIncomeBetween75kAnd100kUSD,
-    kIMSDKHouseholdIncomeBetween100kAnd150kUSD,
-    kIMSDKHouseholdIncomeAbove150kUSD
-};
 typedef NS_ENUM(NSInteger, IMSDKAgeGroup) {
     kIMSDKAgeGroupBelow18 = 1,
     kIMSDKAgeGroupBetween18And24,
@@ -66,4 +45,4 @@ typedef NS_ENUM(NSInteger, IMSDKAgeGroup) {
     kIMSDKAgeGroupAbove65
 };
 
-#endif
+#endif /* COMMONCONSTANTSINCLUEDE_H */

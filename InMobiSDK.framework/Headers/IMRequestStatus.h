@@ -11,17 +11,27 @@
 /**
  * Enumeration for error codes
  */
+
+#ifndef REQUESTSTATUSINCLUDE_H
+#define REQUESTSTATUSINCLUDE_H
+
 typedef NS_ENUM(NSInteger, IMStatusCode) {
     kIMStatusCodeNetworkUnReachable,
     kIMStatusCodeNoFill,
     kIMStatusCodeRequestInvalid,
     kIMStatusCodeRequestPending,
     kIMStatusCodeRequestTimedOut,
+    kIMStatusCodeMultipleLoadsOnSameInstance,
     kIMStatusCodeInternalError,
     kIMStatusCodeServerError,
     kIMStatusCodeAdActive,
-    kIMStatusCodeEarlyRefreshRequest
+    kIMStatusCodeEarlyRefreshRequest,
+    kIMStatusCodeDroppingNetworkRequest,
+    kIMStatusCodeApplicationNotInActiveState,
+    kIMStatusCodeMonetizationDisabled
 };
+
+
 
 @interface IMRequestStatus : NSError
 /**
@@ -33,3 +43,5 @@ typedef NS_ENUM(NSInteger, IMStatusCode) {
 -(instancetype)initWithDomain:(NSString *)domain code:(IMStatusCode)code userInfo:(NSDictionary *)dict;
 
 @end
+
+#endif /* REQUESTSTATUSINCLUDE_H */
